@@ -55,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SendETH.sol": "ReceiveETH"
+			"SendETH.sol": "ReceiveETHTest"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -70,11 +70,11 @@
 	},
 	"sources": {
 		"SendETH.sol": {
-			"keccak256": "0x52a9d181d029c1540abb0098549131d24c44a8e8d99335dde114dd832aa6c306",
+			"keccak256": "0xc2f9e3247a2610d6b13e58d7fe7645d9f286cd13602133b53bc56b5ac9dc4492",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee9b1097ea0ab2e684851a481ad05b76131682a7360a9232cbccf0ae38f05e21",
-				"dweb:/ipfs/QmcQRJN9LPXY3gtVjjNQdRa49JWt2BobfCNpWABWuZpxt3"
+				"bzz-raw://68d0b0db613118f61377b74ca7459b24b9114cec1c761798f9bc24861a22d28f",
+				"dweb:/ipfs/QmSd5xi9T9TjY3f6KbRbRyVfNQUHBU6mtmcK7gYQd3aywT"
 			]
 		}
 	},

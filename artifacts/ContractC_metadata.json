@@ -6,27 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "gas",
-						"type": "uint256"
-					}
-				],
-				"name": "Log",
-				"type": "event"
-			},
-			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,8 +19,30 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
 				"stateMutability": "payable",
-				"type": "receive"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -55,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SendETH.sol": "ReceiveETH"
+			"Delegatecall.sol": "ContractC"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SendETH.sol": {
-			"keccak256": "0x52a9d181d029c1540abb0098549131d24c44a8e8d99335dde114dd832aa6c306",
+		"Delegatecall.sol": {
+			"keccak256": "0xf41aed41bd7d6bea9584ca182d18cb82f552ff8d63ab8f355530e3e6511c5eca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee9b1097ea0ab2e684851a481ad05b76131682a7360a9232cbccf0ae38f05e21",
-				"dweb:/ipfs/QmcQRJN9LPXY3gtVjjNQdRa49JWt2BobfCNpWABWuZpxt3"
+				"bzz-raw://625181c71a0a1035daa7350e41ce0e6912f74269b22f5ba36f0ac89f807ad7a8",
+				"dweb:/ipfs/QmScBsKiVTVEYynS3aFSZ2GMQCcgwS6qJjnrk5kWnWjUg9"
 			]
 		}
 	},

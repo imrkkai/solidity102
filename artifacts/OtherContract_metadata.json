@@ -25,6 +25,10 @@
 				"type": "event"
 			},
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
@@ -35,6 +39,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -55,7 +85,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SendETH.sol": "ReceiveETH"
+			"CallContract2.sol": "OtherContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,12 +99,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SendETH.sol": {
-			"keccak256": "0x52a9d181d029c1540abb0098549131d24c44a8e8d99335dde114dd832aa6c306",
+		"CallContract2.sol": {
+			"keccak256": "0x359e9b2964a59975977377a86998a0c51871963dcdacecfdd1604f21297d14cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee9b1097ea0ab2e684851a481ad05b76131682a7360a9232cbccf0ae38f05e21",
-				"dweb:/ipfs/QmcQRJN9LPXY3gtVjjNQdRa49JWt2BobfCNpWABWuZpxt3"
+				"bzz-raw://3250ceb6ce6b3a3d8650175f2096b5d36716d5c6c44d842b15bf018802b6a45e",
+				"dweb:/ipfs/QmXiQBz6QB1BmRxy2ggQMGWb7TZ6ifLcwyvB6A8aMujKvw"
 			]
 		}
 	},
