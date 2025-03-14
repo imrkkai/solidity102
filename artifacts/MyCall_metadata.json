@@ -103,11 +103,11 @@
 	},
 	"sources": {
 		"CallContract2.sol": {
-			"keccak256": "0x359e9b2964a59975977377a86998a0c51871963dcdacecfdd1604f21297d14cd",
+			"keccak256": "0x9f1deb5d23b8279f448b910d5cc9862b0f4ac6533c475d0462460855c36e9049",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3250ceb6ce6b3a3d8650175f2096b5d36716d5c6c44d842b15bf018802b6a45e",
-				"dweb:/ipfs/QmXiQBz6QB1BmRxy2ggQMGWb7TZ6ifLcwyvB6A8aMujKvw"
+				"bzz-raw://df0ec8a859fe979acf16c1a704249f781d2a73df91c59f1a624765d4355607c9",
+				"dweb:/ipfs/QmRY8tWo4Yei1NfnuKkGqvBoUWUf6YDdZQT8Y24AEv73nc"
 			]
 		}
 	},
